@@ -28,6 +28,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-easy-align'
 Plug 'Yggdroot/LeaderF'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'dgryski/vim-godef'
 " Plugin options
 
 call plug#end()
