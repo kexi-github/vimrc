@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
+" add plug github
+
 " Make sure you use single quotes
 Plug 'junegunn/vim-easy-align'
 " Plugin options
